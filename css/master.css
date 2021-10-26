@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+}
+:root{
+--clr-bg:#a14096;
+}
+body{
+background-color: aqua;
+}
+a{
+ text-decoration-style: none;
+}
+li.font-color + li {
+    background: brown;
+}
+/* li.font-color ~ li{
+background: brown;
+} */
+
+main > div{
+ color:coral;
+ font-size: 2.rem;
+ font-weight: 900;
+ display: flex;
+ flex-direction: row;
+}
+.item{
+ flex: 0 0 200%;
+ background-color: darkgoldenrod;
+ margin: 20px;
+}
